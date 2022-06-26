@@ -12,7 +12,7 @@ import com.pradeep.mvpImplementation.models.ProductsItem
 import com.pradeep.mvpImplementation.presenter.ProductPresenter
 
 
-class MainActivity : AppCompatActivity(), ProductContract.View {
+class ProductActivity : AppCompatActivity(), ProductContract.View {
     private var presenter: ProductPresenter? = null
     lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
